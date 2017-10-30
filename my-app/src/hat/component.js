@@ -6,6 +6,9 @@ class Hat extends Component {
 		return (
 			<div>
 				<img src={hat} alt='sorting hat' />
+				<button onClick={this.props.gettingHouse}>
+					Click me!
+				</button>
 			</div>
 		);
 	}
