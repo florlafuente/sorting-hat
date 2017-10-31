@@ -65,7 +65,7 @@ class HouseBadge extends Component {
           <p>The traits of the House members are {this.state.traits}</p>
           <p>Some of the most famous members are {this.state.members}</p>
         </div>
-				<button onClick={this.props.resetState}>
+				<button onClick={this.props.resetState} className='waves-effect waves-light btn'>
 					{'< Go back'}
 				</button>
 			</div>

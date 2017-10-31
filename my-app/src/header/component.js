@@ -4,8 +4,8 @@ class Header extends Component {
 	render () {
 		return (
 			<header>
-				<h1>The sorting hat</h1>
-				<h2>Which Hogwarts House are you in?</h2>
+				<h1 className='cyan-text'>The sorting hat</h1>
+				<p>Which Hogwarts House are you in?</p>
 			</header>
 		);
 	}

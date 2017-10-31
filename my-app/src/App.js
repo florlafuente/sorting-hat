@@ -13,6 +13,7 @@ class App extends Component {
     }
   }
 
+
   //Returns a string with the House name value and sets it in the state
   gettingHouse = () => {
     const houses = ['Gryffindor', 'Slytherin', 'Ravenclaw', 'Hufflepuff']
